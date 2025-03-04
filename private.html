@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles/private.css">
+
+</head>
+<body>
+    <header>
+        <div class="settings">
+            <a href="#settings"><i class="fas fa-cog"></i></a>
+            <button class="button"><a href="index.html">Back</a></button>
+        </div>
+       
+    </header>
+    <div class="sidebar">
+       
+        <p><a href="profile.html">Profile</a></p>
+        <p><a href="setttings.html">terms and conditions</a></p>
+        
+    </div>
+    <div class="main-content">
+        <h2>Profile Settings</h2>
+        <div class="form-group">
+            <label for="profile-pic">Profile Picture</label>
+            <div id="profile-pic-container" class="profile-pic-placeholder">
+                <i class="fas fa-user"></i>
+            </div>
+            <input type="file" id="profile-pic" name="profile-pic" accept="image/">
+            <button type="button" id="view-pic">View Picture</button>
+            <button type="button" id="upload-device">Upload from Device</button>
+            <button type="button" id="upload-internet">Upload from Internet</button>
+        </div>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" value="Kenton X">
+        </div>
+        <div class="form-group">
+            <label for="user-id">User ID</label>
+            <input type="text" id="user-id" name="user-id" value="s-678543qg4" readonly>
+        </div>
+        <h2>Account Management</h2>
+        <div class="form-group">
+            <label for="password">Change Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div class="form-group">
+            <button type="button">Logout</button>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <img id="modal-img" src="images/ano.jpgs" alt="Profile Picture">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    
+
+    
+<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2024/11/03/14/20241103145029-O096OH1C.js"></script>
+
+<script src="app2.js"></script>
+<script src="database.js"></script>
+</body>
+</html>
