@@ -645,14 +645,14 @@ font-weight: bolder;
     height: 510px;
     width: 400px;
     border-radius: 4px;
-    background-image: url(/images/images\ \(4\).jpeg);
+    background-image: url(../images/images\ \(4\).jpeg);
     background-size: cover;
     position: relative;
 
 }
 
 .services__card:nth-child(2) {
-    background-image: url(/images/images\ \(1\).jpeg);
+    background-image: url(../images/images\ \(1\).jpeg);
 }
 
 .services__card h2 {
